@@ -20,23 +20,26 @@ h1 {
     line-height: 1.5;
     font-size: 3.5rem;
 }
-h3{
+
+h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
 }
-h2{
+
+h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     font-size: 3.5rem;
     line-height: 1.5;
 }
-p{
+
+p {
     color: #8f8f8f;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 /* Navigattion Bar  */
@@ -60,7 +63,7 @@ p{
 
 /* Download Button  */
 
-.download-button{
+.download-button {
     margin: 5% 3% 5% 0;
 }
 
@@ -68,35 +71,47 @@ p{
 .image-title {
     transform: rotate(25deg);
     /* Equal to rotateZ(45deg) */
-    width: 60%;
-    margin: 0 30%;
+    width: 300px;
+    height: 550px;
+    position: absolute;
+    right: 25%;
+    
 
 }
+
 /* Features section */
 
-#features{
+#features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    
 }
-.fearture-box{
+
+.fearture-box {
     text-align: center;
-    padding: 5%;
+    padding: 4.5%;
 }
-.icon{
+
+.icon {
     color: #ef8172;
     margin-bottom: 1rem;
 }
-.icon:hover{
+
+.icon:hover {
     color: red;
 }
+
 /* Testimonials section  */
 
-#testimonials{
-    
-    text-align:center;
+#testimonials {
+
+    text-align: center;
     background-color: #ef8172;
     color: #fff;
 }
-.testimonial-image{
+
+.testimonial-image {
     width: 10%;
     border-radius: 100%;
     margin: 20px;
@@ -104,20 +119,23 @@ p{
 }
 
 /* press section  */
-#press{
-    background-color:#ef8172 ;
+#press {
+    background-color: #ef8172;
     text-align: center;
     padding-bottom: 3%;
 
 }
-.press-logo{
+
+.press-logo {
     width: 15%;
-    margin: 20px 20px 50px ;
-    
+    margin: 20px 20px 50px;
+
 }
-.carousel-item{
+
+.carousel-item {
     padding: 7% 15%;
 }
+
 /* pricing section */
 #pricing {
     padding: 100px;
@@ -126,4 +144,13 @@ p{
 
 .pricing-column {
     padding: 3% 2%;
+}
+@media(max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .image-title{
+        position: static;
+        
+    }
 }
