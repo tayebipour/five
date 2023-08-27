@@ -4,14 +4,23 @@ body {
     font-family: 'Playfair Display', serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Xanh Mono', monospace;
+    text-align: center;
+    
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Xanh Mono', monospace;
 }
 
-#title {
-    background-color: #ff4c68;
-    color: #fff;
+p {
+    color: #8f8f8f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-h1 {
+/* Heading */
+.big-heading{
     font-family: 'Edu SA Beginner', cursive;
     font-family: 'Montserrat Alternates', sans-serif;
     font-family: 'Playfair Display', serif;
@@ -20,23 +29,17 @@ h1 {
     line-height: 1.5;
     font-size: 3.5rem;
 }
-
-h3 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-}
-
-h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    font-size: 3.5rem;
+.section-heading{
+    font-size: 3rem;
     line-height: 1.5;
 }
 
-p {
-    color: #8f8f8f;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
 }
+
 
 .container-fluid {
     padding: 3% 15% 7%;
@@ -59,6 +62,7 @@ p {
 
 .nav-link {
     font-size: 1.5rem;
+    text-align: left;
 }
 
 /* Download Button  */
@@ -75,7 +79,7 @@ p {
     height: 550px;
     position: absolute;
     right: 25%;
-    
+
 
 }
 
@@ -85,11 +89,15 @@ p {
     padding: 7% 15%;
     background-color: #fff;
     position: relative;
-    
+
+}
+.fearture-title{
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .fearture-box {
-    text-align: center;
+    
     padding: 4.5%;
 }
 
@@ -106,9 +114,13 @@ p {
 
 #testimonials {
 
-    text-align: center;
+    
     background-color: #ef8172;
     color: #fff;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .testimonial-image {
@@ -121,7 +133,7 @@ p {
 /* press section  */
 #press {
     background-color: #ef8172;
-    text-align: center;
+    
     padding-bottom: 3%;
 
 }
@@ -139,18 +151,49 @@ p {
 /* pricing section */
 #pricing {
     padding: 100px;
-    text-align: center;
+    
+}
+.pricing-heading-text{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .pricing-column {
     padding: 3% 2%;
 }
-@media(max-width:1028px){
-    #title{
+
+/* CTA Section */
+#cta {
+    
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+}
+
+/* Footer Section */
+#footer {
+    
+    padding: 7% 15%;
+    background-color: #fff;
+
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media(max-width:1028px) {
+    #title {
         text-align: center;
     }
-    .image-title{
+
+    .image-title {
         position: static;
-        
+
+
     }
 }
